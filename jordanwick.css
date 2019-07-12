@@ -1,0 +1,211 @@
+html {
+    background-color:
+}
+
+body {
+    margin-bottom: 100px;
+}
+
+b {
+    font-weight: 400;
+}
+
+a {
+    color: rgb(232, 116, 27);
+    text-decoration: none;
+}
+
+.container {
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.about {
+}
+
+.home_menu {
+    margin-right: 50px;
+    border-radius: 5px;
+}
+
+.home_title {
+    text-align: left;
+    font-size: 50px;
+    margin: 80px 0 30px 0;
+    color: black;
+}
+
+.home_image {
+}
+
+.title {
+    text-align: center;
+    font-size: 60px;
+    margin: 0;
+    color: #222;
+}
+
+.header {
+    text-align: left;
+    font-size: 30px;
+    color: #222;
+}
+
+.title_menu {
+    background-size: 100%;
+    margin: 0px 0px 0px 0px;
+    padding: 80px 0 70px 0;
+}
+
+.title_font {
+    font-family: "Roboto Mono", serif;
+}
+
+.blog_font {
+    font-family: "Merriweather", "Cambria", "Palatino Linotype", Palatino, "Times New Roman", serif;
+    font-weight: lighter;
+}
+
+.sans_font {
+    font-family: "Source Sans Pro", sans-serif;
+}
+
+.subtitle {
+    text-align: center;
+    font-size: 22px;
+    margin: 0;
+    color: #444;
+    line-height: 160%;
+}
+
+.blog_posts {
+/*    width: 50%;*/
+    margin: auto;
+}
+
+.blog_header {
+    font-size: 25px;
+    font-weight: 400;
+    margin: 0;
+}
+
+.blog_date {
+    font-size: 18px;
+    font-style: italic;
+    margin: 0;
+    color: #777;
+}
+
+.blog_body {
+    font-size: 16px;
+    margin: 0 0 30px 0;
+    line-height: 170%;
+    font-weight: 300;
+}
+
+.home_body {
+    font-size: 20px;
+    margin: 0 0 30px 0;
+    line-height: 170%;
+    font-weight: 300;
+}
+
+.home_body a {
+    font-weight: 400;
+}
+
+.block_quotation {
+    font-size: 14px;
+    margin: 0 0 30px 0;
+    padding: 30px;
+    background-color: #eee;
+    color: #555;
+}
+
+.quotation {
+    margin: 0;
+}
+
+.edit {
+    font-size: 14px;
+}
+
+.nav {
+    border: none;
+    list-style:none;
+    margin:0;
+    padding:0;
+    text-align: center;
+    font-size: 25px;
+}
+
+.nav li {
+    display:inline;
+}
+
+.nav a {
+    display:inline-block;
+    padding: 10px 30px 10px 30px; /* top right bottom left */
+    color: black;
+    text-decoration: none;
+    border-radius: 3px;
+}
+
+.nav a:hover {
+    background-color: #eee;
+}
+
+.brianhie_link {
+    padding: 10px 14px 10px 14px;
+    text-decoration: none;
+    color: black;
+    background-color: #eee;
+    transition: 0.2s;
+    border-radius: 3px;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.07);
+}
+
+.brianhie_link:hover {
+    background-color: #ccc;
+}
+
+hr {
+    width: 50%;
+    height: 1px;
+    border-color: #eee;
+    margin-bottom: 35px;
+    margin-top: 35px;
+}
+
+ /* Style the buttons that are used to open and close the accordion panel */
+button.accordion {
+    background-color: #eee;
+    color: #607d8b;
+    cursor: pointer;
+    padding: 20px 32px 20px 32px;
+    margin: 0px 0px 0px 0px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.3s;
+    border-radius: 5px;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.07);
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+button.accordion.active, button.accordion:hover {
+    background-color: #ddd;
+}
+
+div.panel {
+    max-height: 0;
+    overflow: hidden;
+    transition: 0.5s ease-in-out;
+    opacity: 0;
+}
+
+div.panel.show {
+    opacity: 1;
+    max-height: 100000px; /* Whatever you like, as long as its more than the height of the content (on all screen sizes) */
+}
